@@ -1,0 +1,30 @@
+body {
+    background-image: url('images/img4.jpg');
+    background-size: cover;
+}
+.navbar {
+    background-color: rgb(3, 43, 3);
+}
+.navbar-brand {
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+@media (max-width:1211px) {
+    body {
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+}
+@media (max-width:991px) {
+    body {
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+}
+@media (min-width:991px) {
+    .w-75 {
+        width: 75%;
+    }
+}
